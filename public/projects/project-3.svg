@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="p3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="#0a0e1a"/>
+  <rect x="40" y="40" width="320" height="320" rx="20" fill="none" stroke="url(#p3)" stroke-width="2" opacity="0.3"/>
+  <g transform="translate(100,80)" font-family="JetBrains Mono, monospace" font-size="16" fill="url(#p3)">
+    <text x="0" y="0">SELECT *</text>
+    <text x="0" y="30" fill="#64748b">FROM sales</text>
+    <text x="0" y="60" fill="#64748b">WHERE revenue &gt; 1000</text>
+    <text x="0" y="90" fill="#64748b">GROUP BY region</text>
+    <text x="0" y="120" fill="#64748b">ORDER BY total DESC;</text>
+  </g>
+  <text x="200" y="370" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" fill="#64748b">SQL Data Analysis</text>
+</svg>
